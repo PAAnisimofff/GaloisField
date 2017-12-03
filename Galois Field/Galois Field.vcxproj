@@ -111,6 +111,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GaloisField.h" />
+    <ClInclude Include="GaloisFieldElement.h" />
+    <ClInclude Include="GaloisFieldPolynomial.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GaloisField.cpp" />
+    <ClCompile Include="GaloisFieldElement.cpp" />
+    <ClCompile Include="GaloisFieldPolynomial.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
